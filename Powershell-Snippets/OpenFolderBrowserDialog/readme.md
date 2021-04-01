@@ -1,7 +1,10 @@
 # OpenFolderBrowserDialog
-Is a function called > Get-Folder
+Is a function called 
+> Get-Folder
  
-Usage:
+It allows you to select any Windows folder and save it to a variable.
+ 
+### Usage
 $SelectedFolder = Get-Folder
  
  
