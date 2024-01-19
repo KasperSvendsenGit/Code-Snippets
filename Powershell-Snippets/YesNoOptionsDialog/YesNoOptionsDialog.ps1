@@ -14,9 +14,9 @@ $TrueFalse = New-Object -ComObject Wscript.Shell
 $Question = $TrueFalse.Popup("Is $string true?",0,"Please choose...",32+4)
 
 
-if ($Question = [int]6) {
+if ($Question -eq [int]6) {
 	Set-Variable -Name Result -Value "True"
 }
-elseif ($Question = [int]7) {
+elseif ($Question -eq [int]7) {
 	Set-Variable -Name Result -Value "False"
 }
